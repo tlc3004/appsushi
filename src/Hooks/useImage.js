@@ -61,7 +61,7 @@ export function useImage(){
 
                 {productoActivo &&(
                     <div className="modal-overlay" onClick={cerrarModal}>
-                        <div className="modal-content" onClick={(e) => e.stopPropagation()}>
+                        <div className="modal" onClick={(e) => e.stopPropagation()}>
                             <img
                             src={productoActivo.imagen}
                             alt={productoActivo.nombre}

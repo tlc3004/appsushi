@@ -1,4 +1,4 @@
-// src/components/Carta.jsx
+
 
 import { useImage } from "../Hooks/useImage";
 

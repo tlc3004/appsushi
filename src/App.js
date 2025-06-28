@@ -19,7 +19,7 @@ export default function Home() {
   const [toastMensaje, setToastMensaje] = useState("");
   const [toastAction, setToastAction] = useState(null);
 
-  
+  // ✅ Aquí es la única vez que se llama
   const { ToastGlobal, setToastGlobal } = useToastGlobal();
 
   const openModal = (section) => {

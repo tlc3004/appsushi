@@ -113,4 +113,4 @@ function Boleta({ pedido, onToastGlobal }) {
   )
 }
 
-export default Boleta;
+export default Boleta
